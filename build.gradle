@@ -1,4 +1,8 @@
 buildscript {
+    /*
+    google与jcenter位置对调后，会出现坑
+    添加maven库后，加入mavenCentral()
+     */
     repositories {
         google()
         jcenter()
